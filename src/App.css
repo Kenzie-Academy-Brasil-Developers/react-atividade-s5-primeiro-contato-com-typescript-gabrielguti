@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.InputsBox {
+  border-radius: 10px;
+  background-color: rgba(26, 23, 23, 0.596);
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  padding: 10px;
+  position: absolute;
+}
+.InputsBox label {
+  font-size: 1.2rem;
+}
+.InputsBox button {
+  margin-top: 5vh;
+  width: 30%;
+  transform: translatex(120%);
+  height: 4vh;
+  cursor: pointer;
+  background-color: rgb(81, 81, 90);
+  border: 0;
+  border-radius: 5px;
+  color: white;
+}
+.InputsBox input {
+  margin-bottom: 2vh;
+  height: 3vh;
+  border-radius: 5px;
+  border: 0;
+}
+.cardUser {
+  border-radius: 10px;
+  background-color: gray;
+  position: absolute;
+  margin-top: 70vh;
+  height: 20vh;
+  width: 10vw;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+  justify-content: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  backdrop-filter: blur(10px);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
